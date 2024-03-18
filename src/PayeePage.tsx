@@ -50,7 +50,7 @@ const useFetchParties = () => {
             const kycData: KYCData = JSON.parse(kycInformation).data;
             console.log('Serialized KYC data:', kycData);
 
-
+            navigate(`/party-details?partyData=${JSON.stringify(kycData)}`);
          
         } catch (error) {
             console.error('An error occurred while fetching party details:', error);

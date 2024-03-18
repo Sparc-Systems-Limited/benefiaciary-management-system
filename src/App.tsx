@@ -22,10 +22,11 @@ const App: React.FC = () => {
       <Route path="/dashboard"  Component={DashboardPage} />
       <Route path="/register-token"  Component={RegisterTokenPage} />
       <Route path="/payee-types"  Component={PaymentTypesPage} />
-      <Route path="/payments"  Component={PaymentPage} />
-      <Route path="/beneficiaries" Component={BeneficiariesPage} />
+       <Route path="/party-details" Component={PartyDetailsPage}/> 
+       <Route path="/payments"  Component={PaymentPage} />
+      <Route path="/quotation" Component={BeneficiariesPage} />
       <Route path="/contact" Component={ContactPage} />
-      <Route path="/party-details"/>
+    
       </Routes>
     </Router>
   );

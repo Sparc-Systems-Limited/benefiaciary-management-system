@@ -58,7 +58,7 @@ const useFetchParties = () => {
     try {
       const response = await axios.get(apiUrl);
       setPartyData(response.data);
-      navigate('/party-details');
+     // navigate('/party-details');
     } catch (error) {
       console.error('Error fetching party details:', error);
       alert('An error occurred while fetching party details');

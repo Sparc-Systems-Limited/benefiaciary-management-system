@@ -9,9 +9,9 @@ const Sidebar: React.FC = () => {
       <h3 className="w3-bar-item">Menu</h3>
       <a href="/dashboard" className="w3-bar-item w3-button">Dashboard</a>
       <a href="/register-token" className="w3-bar-item w3-button">Register Token</a>
-      <a href="/payee-types" className="w3-bar-item w3-button">Get Parties</a>
-      <a href="/beneficiaries" className="w3-bar-item w3-button">Beneficiaries</a>
-      <a href="/payments" className="w3-bar-item w3-button">Payments</a>
+      <a href="/payee-types" className="w3-bar-item w3-button">KYC Info</a>
+      <a href="/quotation" className="w3-bar-item w3-button">Get Quotation</a>
+      <a href="/payments" className="w3-bar-item w3-button">Make Payment</a>
     </div>
   );
 };
